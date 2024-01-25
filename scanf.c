@@ -17,6 +17,7 @@ int main()
  	printf("please enter your letter grade \n");
 	scanf("%c" , &grade);
 
-	printf("You entered: %c\n", grade);
+	printf("age = %i, gpa =%f, grade = %c\n", age, gpa, grade);
+	
 	return 0;
 }
